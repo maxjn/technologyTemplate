@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--*Boot Strap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--*Swiper CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--*Font style-->
+    <link rel="stylesheet" href="assets/css/fontiran.css">
+    <!--*style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--*style Responsive-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>iTech</title>
+</head>
+
+<body>
+    <!--*Header-->
+    <header>
+        <!--*Logo-Search-->
+        <div class="container">
+            <div class="row justify-content-center justify-content-sm-between align-items-center">
+                <!--*Logo&Titles-->
+                <div class="col-auto">
+                    <div class="logo">
+                        <img src="assets/img/logo.svg" alt="logo">
+                        <div class="logo-titles">
+                            <h1>iTech</h1>
+                            <p>بهترین سایت حوزه تکنولوژی</p>
+                        </div>
+                    </div>
+                </div>
+                <!--*Search-->
+                <div class="col-auto">
+                    <div class="header-search">
+                        <input type="search" placeholder="جستجو...">
+                        <button title="جستجو"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--*Menu-->
+        <nav class="header-bars">
+            <div class="container d-flex justify-content-between">
+                <div class="res-menu d-sm-none">
+                    <div class="bar-container" onclick="barFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+
+                <button type="button" class="login-form-button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    title="login">
+                    <i class="fa fa-user"></i>
+                </button>
+            </div>
+        </nav>
+
+        <nav class="header-menu">
+            <div class="container d-sm-flex">
+
+                <button type="button" class="login-form-button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    title="login">
+                    <i class="fa fa-user"></i>
+                </button>
+                <ul>
+                    <li><a href="">صفحه اصلی</a></li>
+                    <li class="sub-menu-li"><a class="sub-menu-a" onclick="subMenuFunction(this)">فروشگاه <i
+                                class="fa fa-caret-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="">موبایل</a></li>
+                            <li><a href="">لپ تاپ</a></li>
+                            <li><a href="">لوازم جانبی</a></li>
+                            <li><a href="">حافظه جانبی</a></li>
+                            <li><a href="">هدفون</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">وبلاگ</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                    <li><a href="">درباره ما</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--*Main-->
+    <main>
+        <div class="container">
+            <!--*Slider-->
+            <!-- Slider main container -->
+            <div class="swiper image-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/img/slide- (1).jpg" alt="img1" /></div>
+                    <div class="swiper-slide"><img src="assets/img/slide- (2).jpg" alt="img2" /></div>
+                    <div class="swiper-slide"><img src="assets/img/slide- (3).jpg" alt="img3" /></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+            <!--*Table-->
+            <table class="table-information">
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+                <tr>
+                    <th>اندازه صفحه نمایش</th>
+                    <td>لورم ایپسوم با تولید سادگی نامفهوم از</td>
+                </tr>
+            </table>
+            <!--*Last Product-->
+            <section class="box">
+                <h3 class="box-title">آخرین محصولات</h3>
+                <div class="box-content">
+                    <div class="swiper product-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!--* Product -->
+                                <div class="product">
+                                    <img src="assets/img/product.png" alt="Iphone14" width="130px">
+                                    <h2>آیفون 14 پرو 64گیگ</h2>
+                                    <ins>70,000,000</ins><small>تومان</small>
+                                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class=" swiper-pagination swiper-pagination-products"></div>
+                </div>
+            </section>
+            <!--*Login Form-->
+            <section class="box">
+                <h3 class="box-title center-text">ورود به حساب کاربری</h3>
+                <div class="box-content">
+                    <div class="row justify-content-center">
+                        <!--*ّLogin Form-->
+                        <div class="col-lg-5 form-container">
+                            <form action="" class=" login-form">
+                                <label for="usenName">نام کاربری</label>
+                                <input type="text" name="usenName" id="usenName"
+                                    placeholder="نام کاربری خود را وارد کنید">
+                                <label for="password">پسورد</label>
+                                <input type="password" name="password" id="password"
+                                    placeholder="پسورد خود را وارد کنید">
+                                <input type="submit" value="ورود به حساب">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--*Login Form Modal-->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex justify-content-between">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">ورود به حساب کاربری</h1>
+                            <button type="button" class="btn-close m-0" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0">
+                            <section class="box m-0">
+                                <div class="box-content">
+                                    <div class="row justify-content-center">
+                                        <!--*ّLogin Form-->
+                                        <div class=" form-container">
+                                            <form action="" class=" login-form">
+                                                <label for="usenNameM">نام کاربری</label>
+                                                <input type="text" name="usenName" id="usenNameM"
+                                                    placeholder="نام کاربری خود را وارد کنید">
+                                                <label for="passwordM">پسورد</label>
+                                                <input type="password" name="password" id="passwordM"
+                                                    placeholder="پسورد خود را وارد کنید">
+                                                <input type="submit" value="ورود به حساب">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--*Sale & Sidebar-->
+            <section class="box">
+                <div class="row">
+                    <!--*Sidebar-->
+                    <div class="col-lg-4 order-1">
+                        <aside class="sidebar">
+                            <h3 class="sidebar-title">سایدبار</h3>
+                            <ul>
+                                <li><a href="">مجله تکنولوژی</a></li>
+                                <li><a href="">قوانین و شرایط</a></li>
+                                <li><a href="">پرسش های متداول</a></li>
+                                <li><a href="">درباره موبایل مرکزی</a></li>
+                                <li><a href="">تماس با موبایل مرکزی</a></li>
+                                <li><a href="">پیگیری سفارش</a></li>
+                                <li><a href="">پرسش های متداول</a></li>
+                                <li><a href="">مجله تکنولوژی</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <!--*Sale-->
+                    <div class="col-lg-8 order-0 order-lg-2 mb-4 mb-lg-0">
+                        <article class="sale-product">
+                            <div class="row d-flex align-items-stretch">
+                                <div class="col-lg-4 d-flex align-items-center justify-content-around">
+                                    <img src="assets/img/sale-product.png" alt="sale-product" width="100px">
+                                </div>
+                                <div class="col-lg-8 position-relative">
+                                    <h1>گوشی موبایل اپل مدلiPhone 11 با ظرفیت 128 گیگابایت </h1>
+                                    <h3>iPhone 11 128GB Single SIM Mobile Phone</h3>
+                                    <p>گوشی آیفون 11 را می‌توان جانشین آیفون XR نامید. این محصول با ارائه اکثر
+                                        فناوری‌های پیشرفته و دوربین قدرتمند، مشخصات خوبی را با کمترین هزینه از آنچه
+                                        انتظار می رود در اختیار شما قرار می‌دهد. اگر می خواهید یک آیفون جدید با ارزش
+                                        داشته باشید ، این یکی از مواردی است که باید حتما بررسی کنید.<a href="#"
+                                            class="see-more">مشاهده بیشتر</a></p>
+                                    <!--*Sale Footer-->
+                                    <footer class="sale-product-footer">
+                                        <div class="row">
+                                            <!--*add-to-cart-->
+                                            <div class="col-xl-6 order-1">
+                                                <a href="" class="add-to-cart">
+                                                    <i class="fa fa-basket-shopping"></i> افزودن به سبد خرید
+                                                </a>
+                                            </div>
+                                            <!--*price-->
+                                            <div class="col-xl-6  mb-xl-0 mb-3 order-xl-2 order-0">
+                                                <div class="div-price pt-1">
+                                                    <ins class="price">29,000,000</ins>
+                                                    <span class="price-unit">تومان</span>
+                                                    <span class="sale-percent">25%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!--*Last Blog-->
+            <section class="box last-blog">
+                <!--*Last Blog Header-->
+                <div class="last-blog-header">
+                    <ul>
+                        <li class="active"><a href="">علم وتکنولوژی</a></li>
+                        <li><a href="">هنر و سینما</a></li>
+                        <li><a href="">سلامت و زیبایی</a></li>
+                        <li><a href="">کتاب و ادبیات</a></li>
+                        <li><a href="">مطالب داع</a></li>
+                    </ul>
+                    <a href="" class="last-blog-more">مشاهده بیشتر <i class="fas fa-arrow-left"></i></a>
+                </div>
+                <!--*Last Blog Content-->
+                <div class="last-belog-content">
+                    <div class="row justify-content-sm-center">
+                        <div class="col-xl-3 col-lg-5  col-md-5 col-sm-12">
+                            <articl class="post">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-1.jpg" alt="post1"></a>
+                                </figure>
+                                <h2 class="post-title"><a href="#">ساخت اولین پادتن ویروس کرونا</a></h2>
+                                <p class="post-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. با
+                                    تولید
+                                    سادگی نامفهوم از صنعت چاپ...</p>
+                                <footer class="post-footer">
+                                    <span class="post-like">
+                                        <i class="far fa-heart"></i> 25
+                                    </span>
+                                    <span class="post-date">دو روز پیش</span>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-md-5 col-sm-12">
+                            <articl class="post">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-2.jpg" alt="post1"></a>
+                                </figure>
+                                <h2 class="post-title"><a href="#">ساخت اولین پادتن ویروس کرونا</a></h2>
+                                <p class="post-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. با
+                                    تولید
+                                    سادگی نامفهوم از صنعت چاپ...</p>
+                                <footer class="post-footer">
+                                    <span class="post-like">
+                                        <i class="far fa-heart"></i> 25
+                                    </span>
+                                    <span class="post-date">دو روز پیش</span>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                        <div class="col-xl-6 col-lg-10 col-md-10 col-sm-12">
+                            <articl class="post post-large">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-3.jpg" alt="post1"></a>
+                                </figure>
+                                <footer class="post-footer">
+                                    <h2 class="post-title"><a href="#">آیفون نسخه جدید مک او اس را رونمایی کرد</a></h2>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                        <div class="col-xl-6 col-lg-10 col-md-10 col-sm-12">
+                            <articl class="post post-large">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-4.jpg" alt="post1"></a>
+                                </figure>
+                                <footer class="post-footer">
+                                    <h2 class="post-title"><a href="#">آیفون نسخه جدید مک او اس را رونمایی کرد</a></h2>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-md-5 col-sm-12">
+                            <articl class="post">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-5.jpg" alt="post1"></a>
+                                </figure>
+                                <h2 class="post-title"><a href="#">ساخت اولین پادتن ویروس کرونا</a></h2>
+                                <p class="post-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. با
+                                    تولید
+                                    سادگی نامفهوم از صنعت چاپ...</p>
+                                <footer class="post-footer">
+                                    <span class="post-like">
+                                        <i class="far fa-heart"></i> 25
+                                    </span>
+                                    <span class="post-date">دو روز پیش</span>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-md-5 col-sm-12">
+                            <articl class="post">
+                                <figure class="post-thumb"><a href="#"><img src="assets/img/post-6.jpg" alt="post1"></a>
+                                </figure>
+                                <h2 class="post-title"><a href="#">ساخت اولین پادتن ویروس کرونا</a></h2>
+                                <p class="post-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ. با
+                                    تولید
+                                    سادگی نامفهوم از صنعت چاپ...</p>
+                                <footer class="post-footer">
+                                    <span class="post-like">
+                                        <i class="far fa-heart"></i> 25
+                                    </span>
+                                    <span class="post-date">دو روز پیش</span>
+                                    <span class="post-study">5 دقیقه مطالعه</span>
+                                </footer>
+                            </articl>
+                        </div>
+                    </div>
+                    <a href="#" class="last-content-more">مشاهده بیشتر <span>علم و تکنولوژی</span></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--*Footer-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <!--*Footer Menu-->
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <section class="footer-menu">
+                                <h3 class="footer-menu-title">دسترسی سریع
+                                    <i class="fa fa-caret-down ps-2"></i>
+                                </h3>
+                                <ul>
+                                    <li><a href="#">صفحه اصلی</a></li>
+                                    <li><a href="#">ثبت نام</a></li>
+                                    <li><a href="#">ورود</a></li>
+                                    <li><a href="#">بلاگ</a></li>
+                                    <li><a href="#">درباره ما</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <section class="footer-menu">
+                                <h3 class="footer-menu-title">دسترسی سریع
+                                    <i class="fa fa-caret-down ps-2"></i>
+                                </h3>
+                                <ul>
+                                    <li><a href="#">صفحه اصلی</a></li>
+                                    <li><a href="#">ثبت نام</a></li>
+                                    <li><a href="#">ورود</a></li>
+                                    <li><a href="#">بلاگ</a></li>
+                                    <li><a href="#">درباره ما</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <section class="footer-menu">
+                                <h3 class="footer-menu-title">دسترسی سریع
+                                    <i class="fa fa-caret-down ps-2"></i>
+                                </h3>
+                                <ul>
+                                    <li><a href="#">صفحه اصلی</a></li>
+                                    <li><a href="#">ثبت نام</a></li>
+                                    <li><a href="#">ورود</a></li>
+                                    <li><a href="#">بلاگ</a></li>
+                                    <li><a href="#">درباره ما</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <section class="footer-menu">
+                                <h3 class="footer-menu-title">دسترسی سریع
+                                    <i class="fa fa-caret-down ps-2"></i>
+                                </h3>
+                                <ul>
+                                    <li><a href="#">صفحه اصلی</a></li>
+                                    <li><a href="#">ثبت نام</a></li>
+                                    <li><a href="#">ورود</a></li>
+                                    <li><a href="#">بلاگ</a></li>
+                                    <li><a href="#">درباره ما</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!--*Footer certificate-->
+                <div
+                    class="col-lg-2 d-flex align-items-center justify-content-lg-end justify-content-center p-lg-0 p-3 ">
+                    <div class="certificate">
+                        <a href="#" title="img"><img src="assets/img/enamad-one-star.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span>&copy; 2022 </span>
+                        UI Design by <a href="https://ivahid.com/">Ivahid</a> & web Design by <a
+                            href="https://github.com/maxjn"> Maxjn<small>[Muhammad Haghnegahdar]</small></a>
+                    </div>
+                    <img src="assets/img/ivahid-footer.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--*Scroll Up-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+
+    <!--*js ---------------------------------------------------------------->
+    <!--*Icons-->
+    <script src="https://kit.fontawesome.com/7ee55f229b.js" crossorigin="anonymous"></script>
+    <!--*jQuery-->
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <!--*Boot Strap-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--*Swiper-->
+    <script src="assets/js/swiper.js"></script>
+    <!--*Script-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
